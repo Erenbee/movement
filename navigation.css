@@ -8,7 +8,7 @@
   
   header {
     /* where to set the color of the nav bar */
-      background: lightgray;
+      background-color: rgb(112, 88, 165);
       text-align: center;
       top:0px;
       position: fixed;
@@ -26,11 +26,12 @@
       padding-top:10px;
       top: 100%;
       left: 0;
-      background: gray;
+      background: rgb(127, 119, 183);
       width: 100%;
       transform: scale(1,0);
       transform-origin: top;
       transition: transform 400ms ease-in-out;
+      color: rgb(40, 24, 75)
   }
   
   nav ul {

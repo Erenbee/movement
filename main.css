@@ -11,6 +11,7 @@
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
+    /* where to change the "box" for history */
     width: min(100% - 3rem, 80ch);
     margin-inline: auto;
 }
@@ -18,30 +19,37 @@
 
 @media only screen and (min-width:800px){
 .page-wrapper{
-display: grid;
-grid-gap: 25px;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: auto;
-grid-template-areas: 
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
     "h v"
     "a a";
 }
 
-.history {
+#history {
 grid-area: h;
+background-color: rgb(112, 88, 165);
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: rgb(112, 88, 165);
+    height: 100px;
+}
+
+h2{
+    color: rgb(71, 55, 122);
+    font-variation-settings: "wght" 450, "SPAC" 107;
 }
 
 /* variable font animation */
@@ -49,14 +57,15 @@ h3{
     font-weight:20; 
     text-align: center;
     font-size: 5em;
-    animation: weightChange 7s infinite;
+    animation: weightChange 3s infinite;
 }
 
 @keyframes weightChange {
     0%, 100%{
         font-variation-settings: "wght" 100, "SPAC" 100;
     }
-    50%{font-variation-settings: "wght" 900, "SPAC" 120;
+    50%{
+        font-variation-settings: "wght" 900, "SPAC" 120;
     }
     
 }
