@@ -6,7 +6,7 @@
         }
     
     body{
-    background-color: lightsteelblue;
+    background-color: rgb(126, 119, 184);
     font-family: 'Movement';
 }
 /* how the page wrapper will appear on mobile */
@@ -30,7 +30,8 @@
 
 #history {
 grid-area: h;
-background-color: rgb(112, 88, 165);
+background-color: rgb(105, 198, 181);
+/* paragraph-color:  */
 }
 
 #variations{
@@ -43,7 +44,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(112, 88, 165);
+    background-color: rgb(82, 70, 147);
     height: 100px;
 }
 
@@ -56,7 +57,7 @@ h2{
 h3{
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
+    font-size: 100px;
     animation: weightChange 3s infinite;
 }
 
@@ -95,3 +96,17 @@ h3{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
+ /* color: rgb(105, 198, 181) lightest teal
+    color: rgb(80, 173, 156) light teal
+    color: rgb(43, 127, 112) teal
+    color: rgb(12, 96, 81) dark teal
+    color: rgb(7, 81, 68) darker teal
+    color: rgb(7, 56, 47) darkest teal
+
+    color: rgb(126, 119, 184) lightest purple
+    color: rgb(123, 102, 173) light purple
+    color: rgb(101, 80, 161) purple
+    color: rgb(82, 70, 147) dark purple
+    color: rgb(71, 55, 123) darker purple
+    color: rgb(40, 24, 75) darkest purple
+    */
