@@ -31,7 +31,7 @@
 #history {
 grid-area: h;
 background-color: rgb(105, 198, 181);
-/* paragraph-color:  */
+/* class: "p" font-family: "Lato"; */
 }
 
 #variations{
