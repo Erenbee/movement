@@ -24,14 +24,25 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "h v"
-    "a a";
+    "h a"
+    "v v";
 }
 
 #history {
 grid-area: h;
 background-color: rgb(105, 198, 181);
-/* class: "p" font-family: "Lato"; */
+}
+.history-paragraph{
+    font-family: "Lato", sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.history-h2{
+    padding-left: 7px;
+
+}
+.history-h1{
+    padding-left: 7px;
 }
 
 #variations{
@@ -40,6 +51,16 @@ grid-area: v;
 
 #alphabet {
 grid-area: a;
+background-color: rgb(101, 80, 161);
+}
+.alphabet-h2{
+    padding-left: 7px;
+    color: rgb(105, 198, 181);
+    
+}
+.alphabet-paragraph-1{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 }
 /* CSS for the footer */
