@@ -61,6 +61,16 @@ background-color: rgb(101, 80, 161);
 .alphabet-paragraph-1{
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 30px;
+    color: rgb(105, 198, 181);
+    font-variation-settings: "wght" 200, "SPAC" 100;
+}
+.alphabet-paragraph-2{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    color: rgb(105, 198, 181);
+    font-variation-settings: "wght" 200, "SPAC" 120;
 }
 }
 /* CSS for the footer */
@@ -97,6 +107,12 @@ h3{
     text-align: center;
     font-size: 70px;
     animation: weightChange 3s infinite;
+    color: rgb(216, 76, 43);
+}
+.hero{
+    text-align: center;
+    background-image: url("assets/dancers3.svg");
+
 }
 
 h6{
@@ -105,7 +121,12 @@ h6{
     font-size: 50px;
     font-family: "Lato", sans-serif;
     line-height: 10px;
-    
+}
+.lato-text{
+    font-family: "Lato", sans-serif;
+    font-size: 70px;
+    color: rgb(7, 56, 47);
+
 }
 /* variable font that changes on hover */
 .variable-font{
@@ -132,6 +153,42 @@ h6{
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
+
+/* animations for the variable section */
+
+.weight{
+    animation: weightVariation 5s infinite;
+    font-size: 30px;
+    color: rgb(105, 198, 181);
+}
+
+@keyframes weightVariation {
+    0%, 100%{
+        font-variation-settings: "wght" 100;
+    }
+    50%{
+        font-variation-settings: "wght" 900;
+    }
+    
+}
+
+.space{
+    animation: spaceVariation 3s infinite;
+    font-size: 30px;
+    color: rgb(105, 198, 181);
+}
+
+@keyframes spaceVariation {
+    0%, 100%{
+        font-variation-settings: "SPAC" 100;
+    }
+    50%{
+        font-variation-settings: "SPAC" 120;
+    }
+    
+}
+
+
 
  /* color: rgb(105, 198, 181) lightest teal
     color: rgb(80, 173, 156) light teal
