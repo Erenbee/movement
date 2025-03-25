@@ -183,6 +183,7 @@ h6{
     animation: weightVariation 5s infinite;
     font-size: 30px;
     color: rgb(105, 198, 181);
+    /* color: rgb(196, 39, 144); */
 }
 
 @keyframes weightVariation {
@@ -196,7 +197,7 @@ h6{
 }
 
 .space{
-    animation: spaceVariation 3s infinite;
+    animation: spaceVariation 5s infinite;
     font-size: 30px;
     color: rgb(105, 198, 181);
 }
