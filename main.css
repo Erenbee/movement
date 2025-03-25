@@ -42,6 +42,7 @@ background-color: rgb(105, 198, 181);
     padding-left: 10px;
     padding-right: 10px;
     color: rgb(71, 55, 123);
+    font-size: 22px;
 }
 .history-h2{
     padding-left: 7px;
@@ -124,7 +125,7 @@ h3{
 }
 .hero{
     text-align: center;
-    background-image: url("assets/dancers3.svg");
+    background-image: url("assets/dancers4.svg");
     padding-top: 100px;
     padding-bottom: 100px;
     background-image: center;
@@ -211,7 +212,7 @@ h6{
     text-decoration: none;
     overflow: hidden;
     background-color: rgb(7, 56, 47);
-    color: rgb(166, 163, 190);
+    color: rgb(229, 111, 45);
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
