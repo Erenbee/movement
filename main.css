@@ -44,9 +44,10 @@ background-color: rgb(105, 198, 181);
     color: rgb(71, 55, 123);
     font-size: 22px;
 }
-.history-h2{
+.history-h4{
     padding-left: 7px;
-
+    color: rgb(71, 55, 123);
+    font-size: 25px;
 }
 .history-h1{
     padding-left: 7px;
@@ -56,12 +57,7 @@ background-color: rgb(105, 198, 181);
 #variations{
 grid-area: v;
 }
-.variations-paragraph{
-    padding-left: 2px;
-    padding-right: 10px;
-    font-size: 20px;
-    color: rgb(71, 55, 123);
-}
+
 
 #alphabet {
 grid-area: a;
@@ -93,9 +89,18 @@ footer{
     height: 100px;
 }
 
+/* variation-header */
 h2{
-    color: rgb(71, 55, 122);
+    /* color: rgb(196, 39, 144); */
+    color: rgb(71, 55, 123);
     font-variation-settings: "wght" 450, "SPAC" 107;
+}
+.variations-paragraph{
+    padding-left: 2px;
+    padding-right: 10px;
+    font-size: 20px;
+    /* color: rgb(196, 39, 144); */
+    color: rgb(71, 55, 123);
 }
 
 /* variable font animation */
