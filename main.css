@@ -27,6 +27,11 @@
     "h a"
     "v v";
 }
+.logo{
+    color: rgb(40, 24, 75);
+    font-size: 50px;
+    font-variation-settings: "wght" 500, "SPAC" 120;
+}
 
 #history {
 grid-area: h;
@@ -36,6 +41,7 @@ background-color: rgb(105, 198, 181);
     font-family: "Lato", sans-serif;
     padding-left: 10px;
     padding-right: 10px;
+    color: rgb(71, 55, 123);
 }
 .history-h2{
     padding-left: 7px;
@@ -43,10 +49,17 @@ background-color: rgb(105, 198, 181);
 }
 .history-h1{
     padding-left: 7px;
+    color: rgb(71, 55, 123);
 }
 
 #variations{
 grid-area: v;
+}
+.variations-paragraph{
+    padding-left: 2px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: rgb(71, 55, 123);
 }
 
 #alphabet {
@@ -107,11 +120,15 @@ h3{
     text-align: center;
     font-size: 70px;
     animation: weightChange 3s infinite;
-    color: rgb(216, 76, 43);
+    color: rgb(229, 111, 45);
 }
 .hero{
     text-align: center;
     background-image: url("assets/dancers3.svg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: center;
+    background-size: cover;
 
 }
 
@@ -125,7 +142,7 @@ h6{
 .lato-text{
     font-family: "Lato", sans-serif;
     font-size: 70px;
-    color: rgb(7, 56, 47);
+    color: rgb(7, 81, 68);
 
 }
 /* variable font that changes on hover */
@@ -186,6 +203,16 @@ h6{
         font-variation-settings: "SPAC" 120;
     }
     
+}
+
+.footer-button{
+    background-color: rgb(7, 56, 47);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
 }
 
 
