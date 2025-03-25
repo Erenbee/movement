@@ -245,15 +245,67 @@ h6{
 /* CSS for the footer */
 footer{
     background-color: rgb(82, 70, 147);
-    height: 125px;
+    height: 175px;
 }
 .footer-paragraph{
     font-family: "Movement";
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
     /* padding-bottom: 5px; */
     color: rgb(126, 119, 184);
     font-size: 20px;}
+
+    .instagram-hover{
+        position: relative;
+        color: rgb(126, 119, 184);
+        transition: color 0.3s;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .instagram-hover::before{
+        content: '';
+        position: absolute;
+        width: 86%;
+        height: 2px;
+        bottom: 20px;
+        left: 20px;
+        background-color: rgb(43, 127, 112);
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+
+    }
+
+    .instagram-hover:hover::before{
+        visibility: visible;
+        transform: scaleX(1);
+    }
+
+    /* .hover-effect {
+        position: relative;
+        color: #007bff;
+        transition: color 0.3s;
+      }
+    
+      .hover-effect::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #007bff;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+      }
+    
+      .hover-effect:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+      } */
+
 
  /* color: rgb(105, 198, 181) lightest teal
     color: rgb(80, 173, 156) light teal
