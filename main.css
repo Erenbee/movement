@@ -121,15 +121,17 @@ h3{
     text-align: center;
     font-size: 70px;
     animation: weightChange 3s infinite;
-    color: rgb(229, 111, 45);
+    color: rgb(235, 80, 156);
 }
 .hero{
     text-align: center;
-    background-image: url("assets/dancers4.svg");
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background-image: url("assets/dancers5.svg");
     background-image: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
 
 }
 
@@ -212,8 +214,8 @@ h6{
     position: relative;
     text-decoration: none;
     overflow: hidden;
-    background-color: rgb(7, 81, 68);
-    color: rgb(229, 111, 45);
+    background-color: rgb(43, 127, 112);
+    color: rgb(235, 80, 156);
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
@@ -226,7 +228,7 @@ h6{
 .footer-button::before{
     content: '';
     position: absolute;
-    background-color: rgba(43, 127, 112, 0.5);
+    background-color: rgba(105, 198, 181, 0.5);
     top: 0;
     left: -100%;
     width: 100%;
@@ -239,7 +241,7 @@ h6{
 }
 
 .footer-button:hover{
-    background-color: rgb(7, 56, 47);
+    background-color: rgb(43, 127, 112);
 }
 
 /* CSS for the footer */
