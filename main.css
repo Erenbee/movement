@@ -130,7 +130,7 @@ h3{
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 100px;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 200px;
     height:500px;
     width:100%;
@@ -217,7 +217,7 @@ h6{
     position: relative;
     text-decoration: none;
     overflow: hidden;
-    background-color: rgb(43, 127, 112);
+    background-color: rgb(7, 56, 47);
     color: rgb(235, 80, 156);
     padding: 10px;
     border-radius: 5px;
@@ -244,7 +244,7 @@ h6{
 }
 
 .footer-button:hover{
-    background-color: rgb(43, 127, 112);
+    background-color: rgb(7, 56, 47);
 }
 
 /* CSS for the footer */
